@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+ text-align: center;
+
+}
+.card{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card-inner{
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid rgb(38, 179, 68);
+  border-radius: 5px;
+}
+
+button{
+  padding: 5px;
+  margin: 20px;
+}
