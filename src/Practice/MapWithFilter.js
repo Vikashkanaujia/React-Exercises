@@ -14,7 +14,7 @@ const MapWithFilter = () => {
 
             let filterArray = users.filter((user)=>{
                 //  return user.name === "Leanne Graham";
-                //  return user.name.includes("a");
+                //  return user.name.incl udes("a");
                  return user.id<=5;
 
             });

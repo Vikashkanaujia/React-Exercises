@@ -8,7 +8,7 @@ const OnchangeE = () => {
   return (
     <div className='app'>
         <input onChange = {getInput} name={message} placeholder='type something'/>
-        <h3>{message}</h3>
+        <h3>{message}</h3> 
     </div>
   )
 }

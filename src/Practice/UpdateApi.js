@@ -20,7 +20,7 @@ const UpdateApi = () => {
             .then((result) => { setDatas(result.data); })
             .catch((err) => console.log(err))
 
-    }, [])
+    }, []) 
     return (
         <div className='app'>
             <label>Name <input type='text' placeholder='name' onChange={(e) => setName(e.target.value)} /></label>

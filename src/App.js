@@ -1,19 +1,26 @@
 import './App.css';
-import Debouncing from './Practice/Debouncing';
+import ConfirmPassword from './ConfirmPassword';
+import AddElementUsingInput from './Practice/AddElementUsingInput';
+import RadioButtonDefaultChecked from './Practice/RadioButtonDefaultChecked';
+import UseRef from './Practice/UseRef';
 
 
-import { useState } from 'react';
 
-import { MapArray } from './Practice/MapArray';
-import MapWithFilter from './Practice/MapWithFilter';
-import FilterWithNumber from './Practice/FilterWithNumber';
-import Count from './Practice/Count'
-import OnchangeE from './Practice/OnchangeE';
-import GetApi from './Practice/GetApi';
-import PostApi from './Practice/PostApi';
-import UpdateApi from './Practice/UpdateApi';
-import DeleteApi from './Practice/DeleteApi';
-import Matrix from './Practice/Matrix';
+// import { useState } from 'react';
+// import Allapi from './Practice/Allapi';
+// import ChangeBtnColorOnclick from './Practice/ChangeBtnColorOnclick';
+
+// import { MapArray } from './Practice/MapArray';
+// import MapWithFilter from './Practice/MapWithFilter';
+// import FilterWithNumber from './Practice/FilterWithNumber';
+// import Count from './Practice/Count'
+// import OnchangeE from './Practice/OnchangeE';
+// import GetApi from './Practice/GetApi';
+// import PostApi from './Practice/PostApi';
+// import UpdateApi from './Practice/UpdateApi';
+// import DeleteApi from './Practice/DeleteApi';
+// import Debouncing from './Practice/Debouncing';
+// import Matrix from './Practice/Matrix';
 
 
 // import Props from './Practice/Props';
@@ -23,7 +30,7 @@ import Matrix from './Practice/Matrix';
 //    <--- Accept a parameter from child component to parent component and use in parent component.
 
 
-function App() {
+function App() { 
   // const [name,setName]=useState("Vikash");
   
   // const changeName = (value) =>{
@@ -32,17 +39,25 @@ function App() {
   // }
   return (
         <>
-             <MapArray/> 
+             {/* <MapArray/> 
               <MapWithFilter/> 
-              <FilterWithNumber/> 
+              <FilterWitNumber/> 
               <Count/> 
               {/* <OnchangeE/>  */}
-              <GetApi/> 
+              {/* <GetApi/> 
               <PostApi/>          
               <UpdateApi/> 
               <DeleteApi/> 
               <Debouncing/>
-              <Matrix/>
+              <Matrix/>  */}
+              {/* <Allapi/> */}
+              {/* <ChangeBtnColorOnclick/> */}
+              {/* <UseRef/> */}
+              {/* <RadioButtonDefaultChecked/> */}
+              {/* <ConfirmPassword/> */}
+              <AddElementUsingInput/>
+
+
 
 
              {/* <Props name = {name} changeName = {changeName}/> */}

@@ -6,7 +6,6 @@ export const MapArray = () => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => res.json())
       .then((json) => setUsers(json));
-    console.log(users)
   }, []);
   const mapData= ()=>{
     let mapedArray = users.map((user)=>{

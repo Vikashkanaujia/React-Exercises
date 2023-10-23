@@ -22,7 +22,7 @@ const PostApi = () => {
         .then((result) => { setDatas(result.data);})
         .catch((err) => console.log(err))
         
-    }, [])
+    }, []) 
     return (
         <div className='app'>
             <div>

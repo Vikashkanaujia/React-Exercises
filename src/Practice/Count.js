@@ -4,7 +4,7 @@ const Count = () => {
   let [count,setCount]=useState(0)
   const incrementFun = () =>{
         setCount(count+1);
-  }
+  } 
 
   return (
     <div className='app'>

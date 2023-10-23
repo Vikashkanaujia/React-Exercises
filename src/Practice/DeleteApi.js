@@ -11,7 +11,7 @@ const DeleteApi = () => {
     }
 
     useEffect(() => {
-        axios.get('https://jsonplaceholder.typicode.com/users')
+        axios.get('https://jsonplaceholder.typicode.com/users') 
             .then((result) => { setDatas(result.data); })
             .catch((err) => console.log(err))
 

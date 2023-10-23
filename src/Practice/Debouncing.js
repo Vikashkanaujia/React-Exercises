@@ -10,7 +10,7 @@ const Debouncing = () => {
 
     }
     useEffect(()=>{
-        const getData=setTimeout(()=>{
+        const getData=setTimeout(()=>{ 
             debouncing();
         },3000)
         return () => clearTimeout(getData)

@@ -7,7 +7,7 @@ const Props = ({name , changeName}) => {
         
         <h3>{name}</h3>
         <button onClick={()=>{changeName("Hello vikash i am from parent component")}}>Change name from child</button> 
-
+ 
     </div>
   )
 }

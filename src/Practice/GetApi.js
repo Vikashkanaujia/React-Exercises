@@ -5,7 +5,7 @@ const GetApi = () => {
     useEffect(()=>{
 
         axios.get('https://jsonplaceholder.typicode.com/users')
-        .then((result)=>{setDatas(result.data) ; console.log(result.data)})
+        .then((result)=>{setDatas(result.data)})
         .catch((err)=>console.log(err))
        
     },[])

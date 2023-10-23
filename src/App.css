@@ -27,3 +27,13 @@ button{
   padding: 5px;
   margin: 20px;
 }
+
+
+.btn-pink{
+background-color: pink;
+color: black;
+}
+.btn-yello{
+  background-color: yellow;
+  color: black;
+  }
